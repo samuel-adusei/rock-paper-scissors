@@ -1,0 +1,113 @@
+/* remember to turn off default setting of google web */
+
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box
+
+}
+
+
+body {
+    background: grey;
+    font-family: Asap, sans-serif
+    
+}
+
+header {
+    background: white;
+    padding: 20px;
+}
+
+header > h1 {
+    color: blue;
+    text-align: center;
+    font-family: Asap, sans-serif;
+        
+}
+
+.score-board {
+    margin: 20px auto;
+    border: 3px solid white;
+    border-radius: 4px;
+    width: 200px;
+    color: white;
+    font-size:46px;
+    text-align: center;
+    padding:  15px 20px;
+    font-family: Asap, sans-serif;
+    position: relative;
+}
+
+.badge {
+    background: red;
+    color: white;
+    font-size: 14px;
+    padding:  2px 10px;
+    font-family: Asap, sans-serif;
+    
+}
+
+#user-label {
+    position: absolute;
+    top: 30px;
+    left: -25px;
+}
+
+
+#comp-label {
+    position: absolute;
+    top: 30px;
+    right:   -30px;
+}
+
+
+.result {
+    font-size: 40px;
+    color: white;    
+    
+}
+
+.result > p {
+    text-align: center;
+    font-weight: 200;
+    
+}
+
+.choices {
+    text-align: center;
+    margin: 50px 0;
+    
+}
+
+img {
+    width: 300px    ;
+    height: 300px;
+}
+
+.choice {
+    display:inline-block;
+    border: 4px solid white;
+    margin: 0 20px;
+    padding: 10px;
+    
+}
+
+/* this allows us to make an interaction when a user hovers other our item */
+.choice:hover {
+    cursor: pointer; /* allows us to change how the cursor looks once a person hovers over it */
+    background: red;
+}
+
+#action-message {
+    text-align: center;
+    color: white;
+    font-family: Asap, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+
+
