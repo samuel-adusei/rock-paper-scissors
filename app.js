@@ -20,7 +20,7 @@ function getCompChoice() {
 
 function convertToWord(letter) {
     if (letter === "r") return "Rock";
-    if (letter === "s") return "Paper";
+    if (letter === "p") return "Paper";
     return "Scissors";
 }
 
@@ -62,12 +62,13 @@ function game(userChoice) {
     case "rs":
     case "pr":
     case "sp":
-            lose(userChoice, compChoice);
+            
+            win(userChoice, compChoice);
             break;
     case "rp":
     case "ps":
     case "sr":
-            win(userChoice, compChoice);
+            lose(userChoice, compChoice);
             break;
     case "rr":
     case "pp":
